@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main-box{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock-box{
+    height: 50%;
+    width: 60%;
+    background-color: rgb(61, 61, 60);
+    box-shadow: 2px 2px 40px white;
+    border-radius: 10px;
+    color: white;
+}
+.time-box{
+   height: 60%;
+   display: flex;
+}
+.date-day-box{
+    height: 40%;
+    /* background-color: blue; */
+}
+.current-time-box{
+   width: 70%;
+   height: 100%;
+   font-size: 7vw;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   padding-left: 10vw;
+}
+.am-pm-box{
+    width: 30%;
+    height: 100%;
+    font-size: 3vw;
+    padding-top: 5vh;
+    padding-left: 1vw;
+    
+}
+
+.day-box{
+    height: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+.date-box{
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.current-day{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    font-size: 4vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.current-date{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+    font-size: 2.5vw;
+    font-family: 'Courier New', Courier, monospace; 
+}
+@media (max-width:768px) {
+    .clock-box{
+        height: 35%;
+        width: 80%;
+       
+    }
+    .current-time-box{
+        font-size: 18vw;
+        width: 90%;
+     }
+     .am-pm-box{
+        width: 10%;
+        padding-top: 7vh;
+        
+    }
+    .current-day{
+        width: 70%;
+        font-size: 10vw;
+    }
+    .current-date{
+        width: 80%;
+        height: 100%; 
+        font-size: 10vw;
+    }
+}
