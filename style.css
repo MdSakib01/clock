@@ -79,7 +79,7 @@ html,body{
     display: flex;
     justify-content:center;
     align-items: center;   
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-family: 'Courier New', Courier, monospace; 
 }
 @media (max-width:768px) {
